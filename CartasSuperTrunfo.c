@@ -2,16 +2,16 @@
 
 int main() {
 
-    char Código[50];
+    char Codigo;
     char Estado[50];
     char Cidade[50];
-    int População;
-    float Área;
+    int Populacao;
+    float Area;
     float PIB; 
-    int número_de_pontos_turísticos;
+    int numero_de_pontos_turisticos;
     
-    printf("Código da Cidade: \n");
-    scanf("%s", &Código);
+    printf("Codigo_da_Cidade: \n");
+    scanf("%s", &Codigo);
 
     printf("Estado: \n");
     scanf("%s", &Estado);
@@ -19,25 +19,26 @@ int main() {
     printf("Cidade: \n");
     scanf("%s", &Cidade);
 
-    printf("População: \n");
-    scanf("%d", &População);
+    printf("Populacao: \n");
+    scanf("%d", &Populacao);
 
-    printf("Área: \n");
-    scanf("%f", &Área);
+    printf("Area: \n");
+    scanf("%f", &Area);
 
     printf("PIB: \n");
     scanf("%f", &PIB);
 
-    printf("número_de_pontos_turísticos: \n");
-    scanf("%s", &número_de_pontos_turísticos);
+    printf("numero_de_pontos_turisticos: \n");
+    scanf("%s", &numero_de_pontos_turisticos);
 
-    printf("Código da Cidade: %s \n");
-    printf("Estado: %s \n");
-    printf("Cidade: %s \n");
-    printf("População: %d \n");
-    printf("Área: %f \n");
-    printf("PIB: %f \n");
-    printf("número_de_pontos_turísticos: \n");
+    printf("Codigo_da_Cidade: %s \n, Codigo");
+
+    printf("Estado: %s \n, Estado");
+    printf("Cidade: %s \n, Cidade");
+    printf("Populacao: %d \n, Populacao");
+    printf("Area: %f \n, Area");
+    printf("PIB: %f \n, PIB");
+    printf("numero_de_pontos_turisticos: \n, numero_de_pontos_turisticos");
 
     return 0;
 }
