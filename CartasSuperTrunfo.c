@@ -8,10 +8,10 @@ int main() {
     int Populacao;
     float Area;
     float PIB; 
-    int numero_de_pontos_turisticos;
+    int Pontos_turisticos;
     
     printf("Codigo_da_Cidade: \n");
-    scanf("%s", &Codigo);
+    scanf("%c", &Codigo);
 
     printf("Estado: \n");
     scanf("%s", &Estado);
@@ -28,17 +28,16 @@ int main() {
     printf("PIB: \n");
     scanf("%f", &PIB);
 
-    printf("numero_de_pontos_turisticos: \n");
-    scanf("%s", &numero_de_pontos_turisticos);
+    printf("Pontos_turisticos: \n");
+    scanf("%d", &Pontos_turisticos);
 
-    printf("Codigo_da_Cidade: %s \n, Codigo");
-
-    printf("Estado: %s \n, Estado");
-    printf("Cidade: %s \n, Cidade");
-    printf("Populacao: %d \n, Populacao");
-    printf("Area: %f \n, Area");
-    printf("PIB: %f \n, PIB");
-    printf("numero_de_pontos_turisticos: \n, numero_de_pontos_turisticos");
+    printf("Codigo_da_Cidade: %c \n", Codigo);
+    printf("Estado: %s \n", Estado);
+    printf("Cidade: %s \n", Cidade);
+    printf("Populacao: %d \n", Populacao);
+    printf("Area: %f \n", Area);
+    printf("PIB: %f \n", PIB);
+    printf("pontos_turisticos: %d \n", Pontos_turisticos);
 
     return 0;
 }
